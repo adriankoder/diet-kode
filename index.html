@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,8 +8,11 @@
   </head>
   <body>
     <h1>Nutritionix API Example</h1>
-    <input type="text" id="foodQuery" placeholder="Enter food item" />
-    <button id="fetchData">Fetch Nutrition Data</button>
+    <input type="text" id="foodQuery" placeholder="Skriv inn matvare" />
+    <button id="addFood">Legg til matvare</button>
+    <br />
+    <input type="number" id="calorieLimit" placeholder="Angi kalorigrense" />
+    <button id="generateDiet">Generer diett</button>
     <pre id="result" class="result"></pre>
 
     <script src="script.js"></script>
