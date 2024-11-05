@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.result {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Add this line to allow wrapping */
+  max-width: 50%;
+}
+
+.result img {
+  margin: 5px; /* Optional: Add some margin around the images */
+}
